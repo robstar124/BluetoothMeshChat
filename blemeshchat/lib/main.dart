@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'BLE Mesh Chat',
       theme: ThemeData(useMaterial3: true, colorSchemeSeed: Colors.blue),
-      home: const AdvertiserScreen(), // 👈 important
+      home: const AdvertiserScreen(),
     );
   }
 }
